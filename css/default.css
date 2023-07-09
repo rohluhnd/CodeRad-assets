@@ -17,6 +17,7 @@
 
   /* background Colors */
   --bg-header: url("../images/img/bg-header-1.jpg");
+  --bg-demo: url("../images/img/bg-demo.jpg");
   --bg-footer: hsl(232, 29%, 20%);
   --bg-copyright: hsl(234, 32%, 12%);
 }
@@ -32,7 +33,7 @@ body {
   font-weight: 300;
   line-height: 1.6;
   letter-spacing: 0;
-  color: var(--primary-color);
+  color: var(--text-color);
 }
 ul {
   margin: 0;
