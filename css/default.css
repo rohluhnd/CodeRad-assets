@@ -38,6 +38,9 @@
   --bg-footer: hsl(232, 29%, 20%);
   --bg-copyright: hsl(234, 32%, 12%);
 }
+html {
+  scroll-behavior: smooth;
+}
 
 *,
 ::after,
