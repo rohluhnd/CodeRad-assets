@@ -31,7 +31,7 @@
     <![endif]-->
     <div id="pageTop"></div> <! -- for scroll button -->
     
-    <nav class="navbar nav">
+    <nav id="topNav" class="navbar nav">
       <div class="container">
         <button
           class="navbar-toggler"
@@ -40,7 +40,7 @@
         >
           <span>&#9776;</span>
         </button>
-        <a href="index.html" class="logo">McRay</a>
+        <a class="brand" href="index.html">McRay</a>
         <ul class="navbar-nav">
           <li class="nav-link"><a href="#">Home</a></li>
           <li class="nav-link"><a href="#">Services</a></li>
@@ -64,7 +64,7 @@
     </header>
     <!-- Why-me section -->
     <section class="why-me">
-      <div class="container why-me-wrapper">
+      <div class="why-me-wrapper container">
         <div class="block-text">
           <span>Why choose me</span>
           <h2>
@@ -174,124 +174,126 @@
       </div>
       
       <div class="pricing-table">
-        <div class="price-card">
-          <h3>Basic</h3>
-          <div class="price">$99.90</div>
-          <div class="billed">per month</div>
-          <hr />
-          <ul>
-            <li>
-              <span class="title">Community Support</span>
-              <span class="icon">
-                <i class="fa-solid fa-check"></i>
-              </span>
-            </li>
-            <li>
-              <span class="title">Flexible simple license</span>
-              <span class="icon">
-                <i class="fa-solid fa-check"></i>
-              </span>
-            </li>
-            <li>
-              <span class="title">100+ styled components</span>
-              <span class="icon">
+        <div class="container">
+          <div class="price-card">
+            <h3>Basic</h3>
+            <div class="price">$99.90</div>
+            <div class="billed">per month</div>
+            <hr />
+            <ul>
+              <li>
+                <span class="title">Community Support</span>
+                <span class="icon checked">
+                  <i class="fa-solid fa-check"></i>
+                </span>
+              </li>
+              <li>
+                <span class="title">Flexible simple license</span>
+                <span class="icon checked">
+                  <i class="fa-solid fa-check"></i>
+                </span>
+              </li>
+              <li>
+                <span class="title">100+ styled components</span>
+                <span class="icon">
+                  <i class="fa-solid fa-x"></i>
+                </span>
+              </li>
+              <li>
+                <span class="title">100+ header variations</span>
+                <span class="icon">
                 <i class="fa-solid fa-x"></i>
-              </span>
-            </li>
-            <li>
-              <span class="title">100+ header variations</span>
-              <span class="icon">
-                <i class="fa-solid fa-x"></i>
-              </span>
-            </li>
-            <li>
-              <span class="title">Speedy build tooling</span>
-              <span class="icon">
-                <i class="fa-solid fa-x"></i>
-              </span>
-            </li>
-          </ul>
-        </div>
-
-        <div class="price-card featured">
-          <h3>Standard</h3>
-          <div class="price">$199.90</div>
-          <div class="billed">per month</div>
-          <hr />
-          <ul>
-            <li>
-              <span class="title">Community Support</span>
-              <span class="icon checked">
-                <i class="fa-solid fa-check"></i>
-              </span>
-            </li>
-            <li>
-              <span class="title">Flexible simple license</span>
-              <span class="icon checked">
-                <i class="fa-solid fa-check"></i>
-              </span>
-            </li>
-            <li>
-              <span class="title">100+ styled components</span>
-              <span class="icon checked">
-                <i class="fa-solid fa-check"></i>
-              </span>
-            </li>
-            <li>
-              <span class="title">100+ header variations</span>
-              <span class="icon times">
-                <i class="fa-solid fa-x"></i>
-              </span>
-            </li>
-            <li>
-              <span class="title">Speedy build tooling</span>
-              <span class="icon times">
-                <i class="fa-solid fa-x"></i>
-              </span>
-            </li>
-          </ul>
-          <div class="plan-btn-wrapper">
-            <a href="" class="btn btn-primary">Get Started</a>
+                </span>
+              </li>
+              <li>
+                <span class="title">Speedy build tooling</span>
+                <span class="icon">
+                  <i class="fa-solid fa-x"></i>
+                </span>
+              </li>
+            </ul>
           </div>
-        </div>
 
-        <div class="price-card">
-          <h3>Basic</h3>
-          <div class="price">$499.90</div>
-          <div class="billed">per month</div>
-          <hr />
-          <ul>
-            <li>
-              <span class="title">Community Support</span>
-              <span class="icon">
-                <i class="fa-solid fa-check"></i>
-              </span>
-            </li>
-            <li>
-              <span class="title">Flexible simple license</span>
-              <span class="icon">
-                <i class="fa-solid fa-check"></i>
-              </span>
-            </li>
-            <li>
-              <span class="title">100+ styled components</span>
-              <span class="icon">
-                <i class="fa-solid fa-check"></i>
-              </span>
-            </li>
-            <li>
-              <span class="title">100+ header variations</span>
-              <span class="icon">
-                <i class="fa-solid fa-check"></i>
-              </span>
-            </li>
-            <li>
-              <span class="title">Speedy build tooling</span>
-              <span class="icon">
-                <i class="fa-solid fa-check"></i>
-              </span>
-            </li>
-          </ul>
+          <div class="price-card featured">
+            <h3>Standard</h3>
+            <div class="price">$199.90</div>
+            <div class="billed">per month</div>
+            <hr />
+            <ul>
+              <li>
+                <span class="title">Community Support</span>
+                <span class="icon checked">
+                  <i class="fa-solid fa-check"></i>
+                </span>
+              </li>
+              <li>
+                <span class="title">Flexible simple license</span>
+                <span class="icon checked">
+                  <i class="fa-solid fa-check"></i>
+                </span>
+              </li>
+              <li>
+                <span class="title">100+ styled components</span>
+                <span class="icon checked">
+                  <i class="fa-solid fa-check"></i>
+                </span>
+              </li>
+              <li>
+                <span class="title">100+ header variations</span>
+                <span class="icon times">
+                  <i class="fa-solid fa-x"></i>
+                </span>
+              </li>
+              <li>
+                <span class="title">Speedy build tooling</span>
+                <span class="icon times">
+                  <i class="fa-solid fa-x"></i>
+                </span>
+              </li>
+            </ul>
+            <div class="plan-btn-wrapper">
+              <a href="" class="btn btn-primary">Get Started</a>
+            </div>
+          </div>
+
+          <div class="price-card">
+            <h3>Basic</h3>
+            <div class="price">$499.90</div>
+            <div class="billed">per month</div>
+            <hr />
+            <ul>
+              <li>
+                <span class="title">Community Support</span>
+                <span class="icon">
+                  <i class="fa-solid fa-check"></i>
+                </span>
+              </li>
+              <li>
+                <span class="title">Flexible simple license</span>
+                <span class="icon">
+                  <i class="fa-solid fa-check"></i>
+                </span>
+              </li>
+              <li>
+                <span class="title">100+ styled components</span>
+                <span class="icon">
+                  <i class="fa-solid fa-check"></i>
+                </span>
+              </li>
+              <li>
+                <span class="title">100+ header variations</span>
+                <span class="icon">
+                  <i class="fa-solid fa-check"></i>
+                </span>
+              </li>
+              <li>
+                <span class="title">Speedy build tooling</span>
+                <span class="icon">
+                  <i class="fa-solid fa-check"></i>
+                </span>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
@@ -302,45 +304,47 @@
       </div>
 
       <div class="testimonial-grid">
-        <div class="testimonial-card lg">
-          <div class="top">
-            <img src="./images/img/1.png" alt="profile photo" class="profile">
-            <div class="top-info">
-              <h4>Deborah Moreno</h4>
-              <span>United States</span>
+        <div class="container">
+          <div class="testimonial-card lg">
+            <div class="top">
+              <img src="./images/img/1.png" alt="profile photo" class="profile">
+              <div class="top-info">
+                <h4>Deborah Moreno</h4>
+                <span>United States</span>
+              </div>
+            </div>
+            <div class="bottom">
+              <p>Lorem ipsum dolor sit consectetur adipiscing elit, sed do eiusmod tempor. incididunt ut labore et dolore magna aliqua. Rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar. Feugiat sed lectus vestibulum mattis ullamcorper velit. Lorem ipsum dolor sit amet, consectetur adipiscing. </p>
+              <span class="quote">
+                <img src="./images/svg/quote-colored.svg" alt="quote">
+              </span>
             </div>
           </div>
-          <div class="bottom">
-            <p>Lorem ipsum dolor sit consectetur adipiscing elit, sed do eiusmod tempor. incididunt ut labore et dolore magna aliqua. Rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar. Feugiat sed lectus vestibulum mattis ullamcorper velit. Lorem ipsum dolor sit amet, consectetur adipiscing. </p>
-            <span class="quote">
-              <img src="./images/svg/quote-colored.svg" alt="quote">
-            </span>
-          </div>
-        </div>
-
-        <div class="testimonial-card md">
-          <div class="top">
-            <img src="./images/img/2.png" alt="profile photo" class="profile">
-            <div class="top-info">
-              <h4>Pamela Knight</h4>
-              <span>United States</span>
+  
+          <div class="testimonial-card md">
+            <div class="top">
+              <img src="./images/img/2.png" alt="profile photo" class="profile">
+              <div class="top-info">
+                <h4>Pamela Knight</h4>
+                <span>United States</span>
+              </div>
+            </div>
+            <div class="bottom">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque id nibh tortor id aliquet lectus. </p>
             </div>
           </div>
-          <div class="bottom">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque id nibh tortor id aliquet lectus. </p>
-          </div>
-        </div>
-        
-        <div class="testimonial-card md">
-          <div class="top">
-            <img src="./images/img/3.png" alt="profile photo" class="profile">
-            <div class="top-info">
-              <h4>Peter Williams</h4>
-              <span>United States</span>
+          
+          <div class="testimonial-card md">
+            <div class="top">
+              <img src="./images/img/3.png" alt="profile photo" class="profile">
+              <div class="top-info">
+                <h4>Peter Williams</h4>
+                <span>United States</span>
+              </div>
             </div>
-          </div>
-          <div class="bottom">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque id nibh tortor id aliquet lectus. </p>
+            <div class="bottom">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque id nibh tortor id aliquet lectus. </p>
+            </div>
           </div>
         </div>
       </div>
@@ -349,7 +353,7 @@
     <footer>
       <section class="footer-top">
         <div class="container">
-          <div class="footer-col one">
+          <div class="footer-col">
             <div class="contact-info">
               <h4>Need Help?</h4>
               <ul>
@@ -437,7 +441,36 @@
         </div>
       </section>
     </footer>
+<!-- Scroll to top of page -->
     <a href="#pageTop" id="scrollUp"><i class="fa-solid fa-arrow-up"></i></a>
-    <script src="#" async defer></script>
+
+<!-- For navbar on iPads and Tablets - Portrait mode  -->
+  <script>
+
+
+    const nav = document.getElementById('topNav');
+    window.onscroll = function () {
+      if(window.pageYOffset > 100) {
+        nav.classList.add('sticky');
+      } else {
+        nav.classList.remove('sticky');
+      }
+    }
+
+
+
+    const navButton = document.querySelector('button[aria-expanded]');
+
+      function toggleNav ({ target }) {
+        const expanded = target.getAttribute('aria-expanded') === 'true' || false;
+        navButton.setAttribute('aria-expanded', !expanded);
+      }
+
+      navButton.addEventListener('click', toggleNav);
+  </script>
+
+    <script src="#" async defer>
+      
+    </script>
   </body>
 </html>

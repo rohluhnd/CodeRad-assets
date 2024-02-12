@@ -54,6 +54,8 @@ body {
   line-height: 1.6;
   letter-spacing: 0;
   color: var(--text-color);
+  padding: 0;
+  margin: 0;
 }
 ul {
   margin: 0;
@@ -122,6 +124,7 @@ img {
   .testimonial-grid,
   .footer-bottom-wrapper {
     max-width: 720px;
+    margin: 0 auto;
   }
 }
 @media (min-width: 992px) {
