@@ -12,7 +12,8 @@
   box-shadow: 0px 0px 20px rgba(48, 63, 100, 0.2);
 }
 .navbar.sticky .navbar-toggler span,
-.navbar.sticky .brand {
+.navbar.sticky .brand,
+.navbar.sticky .nav-link a {
   color: var(--font-color-dark);
 }
 .navbar-toggler {
@@ -233,7 +234,7 @@ span.bg-color-6 {
 .price-card h3,
 .price,
 .billed {
-text-align: center;
+  text-align: center;
 }
 .price-card li {
   margin-bottom: var(--size-20);
@@ -260,7 +261,7 @@ text-align: center;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-template-rows: 1fr 1fr;
-  margin:  0 auto;
+  margin: 0 auto;
   gap: var(--size-20);
 }
 .testimonial-card .top {
@@ -320,7 +321,7 @@ footer .footer-bottom {
   justify-self: center;
   max-width: 300px;
 }
-.footer-top h4{
+.footer-top h4 {
   color: var(--white);
   font-weight: 500;
   margin-bottom: var(--size-16);
@@ -330,7 +331,7 @@ footer .footer-bottom {
   margin-bottom: var(--size-10);
 }
 .contact-info li i {
-  width: var(--size-30); 
+  width: var(--size-30);
 }
 .social-icons ul li {
   display: inline-block;
@@ -365,8 +366,8 @@ footer .footer-bottom {
   font-size: 0.75rem;
 }
 .post-info span {
-color: var(--font-color-light);
-font-size: var(--size-10);
+  color: var(--font-color-light);
+  font-size: var(--size-10);
 }
 .footer-bottom-wrapper {
   display: flex;
